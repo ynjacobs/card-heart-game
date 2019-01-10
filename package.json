@@ -6,9 +6,17 @@
   "scripts": {
     "test": "jest test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrmykolyn/exercises.js.tdd.01.git"
+  },
   "author": "Jesse R Mykolyn <jrmykolyn@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.6.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/jrmykolyn/exercises.js.tdd.01/issues"
+  },
+  "homepage": "https://github.com/jrmykolyn/exercises.js.tdd.01#readme"
 }

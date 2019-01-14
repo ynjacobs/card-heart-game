@@ -125,6 +125,15 @@ describe('Deck', () => {
         expect(card).toBe(3);
       });
 
+      it('should reduce the number of cards by 1 when invoked with 0 arguments', () => {
+        const deck = new Deck();
+        deck.cards = [1,2,3];
+
+        deck.draw();
+
+        expect(deck.cards.length).toBe(2);
+      });
+
       it('should return an array containing the "top" 2 cards when invoked with the number 2', () => {
         const deck = new Deck();
         deck.cards = [1,2,3];
@@ -134,7 +143,7 @@ describe('Deck', () => {
         expect(cards).toEqual(expect.arrayContaining([3,2]));
       });
 
-      it('should reduce the number of cards by N', () => {
+      it('should reduce the number of cards by 2 when invoked with the number 2', () => {
         const deck = new Deck();
         const n = 2;
         deck.cards = [1,2,3];

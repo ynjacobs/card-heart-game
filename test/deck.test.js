@@ -77,7 +77,7 @@ describe('Deck', () => {
 
         expect(card1).not.toBe(deck.cards[0]);
         expect(card2).not.toBe(deck.cards[1]);
-        expect(card3).not.toBe(deck.cards[3]);
+        expect(card3).not.toBe(deck.cards[2]);
       });
 
       it('should not affect the number of cards', () => {
